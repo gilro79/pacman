@@ -1,0 +1,68 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  color:white;
+}
+
+td{
+  width: 40px;
+  height: 40px;
+  padding: 0px;
+  border: 0px;
+}
+tr{
+  height: 40px;
+  padding: 0;
+}
+
+.wall-img{
+  width: 100%;
+  height: 100%;
+
+}
+
+table {
+  border-collapse: initial;
+  border-spacing: 0px;
+  padding: 0px;
+  margin: 0px;
+}
+.cell {
+  width: 40px;  /* ???? why do I get td with 1px padding? */
+  height: 40px;
+  text-align: center;
+  font-size: 1.5em;
+  /* margin: 0px; */
+}
+
+.cell img {
+  width:25px;
+  height:auto
+}
+
+.modal {
+  text-align: center;
+  background-color: rgb(15, 238, 227);
+  display:none;
+  position: absolute;
+  top:200px;
+  left: 70px;
+  padding: 5px;
+  width: 300px;
+  height: 150px;
+}
+
+.wall img{
+  width: 40px;
+  height: 40px;
+  /* margin: 0px; */
+}
+
+/* .formLine {
+  margin:10px;
+  padding:10px;
+  background-color: cornflowerblue;
+} */
